@@ -7,11 +7,13 @@ public class Hello {
         milan.PrintSquadra();
 
 
+        Squadra juve = new Squadra();
+        juve.PrintSquadra();
 
-        //        giocatori[0].setNome("gino");
-//        giocatori[0].setRuolo("portiere");
-//        giocatori[0].setNumeromaglia(87);
-//        giocatori[0].printGiocatore();
+        Partita partita = new Partita(milan,juve);
+        partita.play();
+        partita.PrintRisultato();
+
 
     }
 }
