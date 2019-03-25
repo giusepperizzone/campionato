@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Squadra {
     String nomesquadra;
     ArrayList <giocatore> giocatori = new ArrayList<>();
-    Sgicanner input = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
 
     Squadra(){
         System.out.println("Inserisci nome squadra");
