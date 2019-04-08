@@ -28,6 +28,7 @@
     </dependency>
   </dependencies>
 
+
   <build>
     <finalName>prova</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
